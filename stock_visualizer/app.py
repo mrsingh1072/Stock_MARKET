@@ -8,7 +8,6 @@ import stock_data
 app = Flask(__name__)
 
 # Start scheduler in a separate thread
-
 scheduler_thread = Thread(target=stock_data.run_scheduler, daemon=True)
 scheduler_thread.start()
 
