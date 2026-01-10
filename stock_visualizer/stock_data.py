@@ -8,6 +8,7 @@ import json
 import os
 
 # Cache for real-time data
+
 stock_cache = {}
 
 # Watchlist and pinned charts storage
